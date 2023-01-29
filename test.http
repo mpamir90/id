@@ -1,0 +1,24 @@
+
+
+GEt https://gorest.co.in/public/v2/users?page=2&per_page=20
+Accept: application/json
+Content-Type: application/json
+
+###
+
+PUT https://gorest.co.in/public/v2/users/187501
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer 05b4bab93d1783ecbc2a7cc99abb1f7c7580872dee03862a40d549bd79cec98a
+
+{
+    "name" : "hahaha",
+    "email" : "thegmail@gmail.com",
+    "status" : "active"
+}
+
+###
+DELETE https://gorest.co.in/public/v2/users/187501
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer 05b4bab93d1783ecbc2a7cc99abb1f7c7580872dee03862a40d549bd79cec98a
